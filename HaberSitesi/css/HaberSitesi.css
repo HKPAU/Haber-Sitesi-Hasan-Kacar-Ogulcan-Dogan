@@ -1,0 +1,142 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+#MainTable{
+    width: 100%;
+    height: 800px;
+    margin:0px;
+    padding: 0px;
+}
+
+#MenuBar{
+    width: 100%;
+    height: 120px;
+    margin:0px;
+    padding: 0px;
+    background-color: #004447;
+
+}
+
+
+#TVChannels{
+    width: 100%;
+    height: 150px;
+    border:1px solid black;
+    margin:0px;
+    padding: 0px;
+}
+
+#NewsName{
+    width: 100%;
+    height: 90px;
+    border:1px solid black;
+    margin:0px;
+    padding: 0px;
+}
+
+
+#ContentZone{
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+}
+
+#FooterZone{
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+    margin:0px;
+    padding: 0px;
+}
+
+#MenuZone{
+    width: 100%;
+    height: 120px;
+    margin:0px;
+    padding: 0px;
+}
+
+#MenuItem{
+    width: 220px;
+    height: 120px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#MenuLinkAttr{
+    text-decoration: none;
+    color: black;
+}
+
+#LogoZone{
+    width: 300px;
+    height: 120px;
+    margin:0px;
+    padding: 0px;
+}
+
+.LeftClass{
+    position: absolute;
+    left: 0px;
+    text-align: left;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+    cursor: pointer;
+    bottom: 60%;
+}
+
+.RightClass{
+    position: absolute;
+    right: 0px;
+    text-align: right;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+    cursor: pointer;
+    bottom: 60%;
+}
+
+.LeftArrow:hover .LeftClass{
+    opacity: 0.7;
+}
+
+.RightArrow:hover .RightClass{
+    opacity: 0.7;
+}
+
+#ChannelZone1{
+    position:inherit;
+    display: block;
+    background-color: #F9F4D7;
+}
+
+#ChannelZone2{
+    position:inherit;
+    display: none;
+    background-color: #F9F4D7;
+}
+
+#ChannelZone3{
+    position:inherit;
+    display: none;
+    background-color: #F9F4D7;
+}
+
+#ChannelTable{
+    width: 100%;
+    height: 150px;
+}
+
+
+#ChannelName{
+    width: 300px;
+}
+
+#ChannelsLogo{
+    width: 150px;
+    height: 150px;
+}
